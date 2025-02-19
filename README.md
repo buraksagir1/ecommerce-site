@@ -22,11 +22,8 @@ Follow these steps to set up the project:
 1-Clone the repository:
 git clone https://github.com/username/ecommerce-enes.git
 cd ecommerce-enes
-
 2-Install dependencies: npm install
-3-Start the project: npm start
-4-JSON Server (Optional - For Fake API Usage):
-If you want to use custom test data: npx json-server --watch db.json --port 5000
+3-Start the project: npm run dev
 
 To-Do List:
 Real Backend Integration (Node.js & MongoDB)
