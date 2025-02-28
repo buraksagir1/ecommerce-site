@@ -23,7 +23,11 @@ Follow these steps to set up the project:
 3-Start the project: npm run dev
 
 To-Do List:
-Real Backend Integration (Node.js & MongoDB)
+Backend Integration (Node.js & MongoDB)
 User Authentication & Registration System
 Payment Integration
+
+Contact:
+If you have any questions or feedback, feel free to reach out via:
+Email: enes36123@hotmail.com
 
