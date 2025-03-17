@@ -18,7 +18,7 @@ export default function DisplayProduct() {
     const displayedProduct = products.find((p) => (Number(p.id) === Number(productId)))
 
     if (!displayedProduct) {
-        return <Box><h3>Ürün bulunamadı veya yükleniyor...</h3></Box>;
+        return <Box><h3>Product not found...</h3></Box>;
     }
 
     console.log(displayedProduct.inCart)
@@ -52,7 +52,7 @@ export default function DisplayProduct() {
                             (
                                 <Button
                                     onClick={() => (dispatch(addToCart(displayedProduct)))}
-                                    cursor={"pointer"} style={{ maxWidth: "100%", }}>Sepete Ekle</Button>
+                                    cursor={"pointer"} style={{ maxWidth: "100%", }}>Add to Cart</Button>
                             )}                    </Box>
 
                 </Box>
