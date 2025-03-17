@@ -91,19 +91,19 @@ export default function Header() {
                             <h4 onMouseOver={(e) => (e.target.style.backgroundColor = "dimgrey")}
                                 onMouseOut={(e) => (e.target.style.backgroundColor = "transparent")}
 
-                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("men's clothing")))} >Erkek Kıyafet</h4>
+                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("men's clothing")))} >Men's Clothes</h4>
                             <h4
                                 onMouseOver={(e) => (e.target.style.backgroundColor = "dimgrey")}
                                 onMouseOut={(e) => (e.target.style.backgroundColor = "transparent")}
-                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("women's clothing")))}>Kadın Kıyafet</h4>
+                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("women's clothing")))}>Women's Clothes</h4>
                             <h4
                                 onMouseOver={(e) => (e.target.style.backgroundColor = "dimgrey")}
                                 onMouseOut={(e) => (e.target.style.backgroundColor = "transparent")}
-                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("jewelery")))}>Aksesuar</h4>
+                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("jewelery")))}>Accessiories</h4>
                             <h4
                                 onMouseOver={(e) => (e.target.style.backgroundColor = "dimgrey")}
                                 onMouseOut={(e) => (e.target.style.backgroundColor = "transparent")}
-                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("electronics")))}>Elektronik</h4>
+                                style={{ cursor: "pointer" }} onClick={() => (dispatch(categorize("electronics")))}>Electronics</h4>
                         </Box>
                     </Menu>
                 </Box>
@@ -158,7 +158,7 @@ export default function Header() {
 
                 {cart.length === 0 ?
                     (null) : (
-                        <h4 style={{ backgroundColor: "black", color: "white", margin: 0, paddingTop: "10px" }}>Sepetim ({cartQuantity})</h4>
+                        <h4 style={{ backgroundColor: "black", color: "white", margin: 0, paddingTop: "10px" }}>Cart ({cartQuantity})</h4>
                     )}
 
                 {cart.length === 0 ? (
@@ -169,7 +169,7 @@ export default function Header() {
                         sx={{ width: 300, p: 2, backgroundColor: 'black', color: 'white' }}
                     >
                         <ProductionQuantityLimitsIcon />
-                        <h4 style={{ backgroundColor: "black", color: "white" }}>Sepetiniz Boş</h4>
+                        <h4 style={{ backgroundColor: "black", color: "white" }}>Your Cart is Empty</h4>
                     </Box>
                 ) : (
                     <Box
