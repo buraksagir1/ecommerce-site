@@ -43,7 +43,7 @@ export default function ProductGrid() {
                                     <Button
                                         onClick={() => (dispatch(addToCart(p)
                                         ))}
-                                        cursor={"pointer"} style={{ maxWidth: "300px", }}>Sepete Ekle</Button>
+                                        cursor={"pointer"} style={{ maxWidth: "300px", }}>Add to Cart</Button>
                                 )}
 
                         </Grid>
