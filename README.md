@@ -19,9 +19,7 @@ Fake Store API - For fetching product data (can be replaced with a real backend 
  Installation:
 Follow these steps to set up the project:
 1-Clone the repository
-2-Enter the  folder name and install dependencies: 
-cd ecommerce-site
-npm install
+2-Go to the root directory of the project. To install the necessary dependencies: npm install
 3-Start the project: npm run dev
 
 To-Do List:
