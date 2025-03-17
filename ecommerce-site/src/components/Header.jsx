@@ -228,7 +228,7 @@ export default function Header() {
                         ))}
                         <Box>
                             {
-                                <h4>Sepet Tutarı: {cartTotal.toFixed(2)} TL </h4>
+                                <h4>Total: {cartTotal.toFixed(2)} TL </h4>
                             }
                         </Box>
                     </Box>
